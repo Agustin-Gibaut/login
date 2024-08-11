@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,0,0.93) 0%, rgba(8,206,226,1) 0%, rgba(0,34,180,1) 100%, rgba(0,212,255,1) 100%);
+    background: url(https://e0.pxfuel.com/wallpapers/714/42/desktop-wallpaper-3d-landscape-dark-landscape.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -11,12 +14,6 @@ body {
     flex-direction: column;
 }
 
-#particles-js {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    color: #ffffff;
-}
 
 .contenedor {
     text-align: center;
@@ -69,4 +66,20 @@ body {
 .texto a:hover {
     transform: scale(1.1);
     background-color: #333;
+}
+
+.boton-personalizado {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.boton-personalizado:hover {
+    background-color: rgba(255, 248, 248, 0.7); 
+    color: rgb(0, 0, 0);
 }
