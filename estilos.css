@@ -71,11 +71,10 @@ body {
 .boton-personalizado {
     background-color: rgba(0, 0, 0, 0.5); 
     color: white; 
-    border: none; 
-    padding: 10px 20px; 
+    border-radius: 12.9px;
+    padding:  30px; 
     font-size: 16px; 
     cursor: pointer; 
-    border-radius: 5px; 
     transition: background-color 0.3s; 
 }
 
